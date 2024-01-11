@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("https://th.bing.com/th/id/R.ccfa9ddc26490623ae5a560f2478721f?rik=5LVJUIUlfTmf5w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f4lImLyA.jpg&ehk=2AQZ2jVoiesMErnFGBSxD2RbgdF%2fXjSF88oMXVEHU8o%3d&risl=&pid=ImgRaw&r=0");
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: orangered;
+    text-decoration: underline;
+}
+
+.container{
+    height: 540px;
+    background-color: white;
+    width: 420px;
+    margin:0% auto;
+    margin-top: 90px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.gamedisplay{
+    padding:30px 10px 0px 40px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1/3;
+    grid-gap:15px;
+    grid-column-gap: 2px;
+    display:grid;
+    margin-top: 10px;
+}
+.button{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 12px;
+    border:none;
+    box-shadow: 0 0 16px rgba(0,0,0,0.3);
+    font-size: 40px;
+    color:crimson;
+}
+
+.resetbtn{
+    padding: 10px;
+    margin-top:20px;
+    width: 80px;
+    border-radius: 10px;
+    color:crimson;
+    font-size: 18px;
+    background-color: #fff;
+}
+
+.winnercontainer{
+    display: flex;
+}
+.winner{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 70px;
+    color:crimson;
+}
+
+.hide{
+    display: none;
+}
